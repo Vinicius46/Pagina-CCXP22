@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    background-color: #FFD900;
+    width: auto;
+    height: 118px;
+}
+
+header img {
+    margin: 27px 58px 28px;
+}
+
+main{
+    display: grid;
+    grid-auto-flow: column;
+    height: 550px;
+}
+
+#reviva {
+    background-color: rgba(81, 73, 136, 1);
+    width: 900px;
+    height: 550px;
+}
+
+#titulo {
+    width: 676px;
+    height: 149px;
+    padding: 31px 68px 514px 58px;
+}
+
+ #titulo h1{
+    color: #F3C61F; 
+    text-align: center;
+    font-family: Verdana;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+ }
+
+ #titulo p {
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ #conteudo {
+    margin: 86px 75px 74px 64px;
+ }
+
+ #conteudo p {
+    color: #FFF;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 22px;
+    font-style:normal;
+    font-weight: 400px;
+    margin-top: -50px;
+
+ }
+
+#videoTempo{
+    width: 700px;
+    height: 600px;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+    flex-direction: column;
+    width: 150px;
+    height: 50px;
+    margin: 30px 0px 0px -95px;
+    padding: 10px 10px 10px 0px;
+    
+    grid-auto-columns: 10vw;
+
+
+    color:#514988;
+    text-align: left;
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#horimetro{
+    margin-top: -20px;
+}
+
+#subTexCount{
+    color:#E33881;
+    font-family: Verdana;
+    font-size:18px;
+    
+    font-weight:100;
+    line-height: normal;
+    margin: 8px 0px 0px -95px;
+}
+
+#video{
+    width:700px;
+    height: 510px;
+    margin:-30px 0px -30px -140px;
+}
+
+#bilhetesComp{
+    display: grid;
+    grid-auto-flow: column;
+   margin: 10px 20px 10px 90px;
+}
+
+#ingressos h2{
+    color:#F3C61F;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+button{
+    align-items: end;
+    width: 400px;
+    height: 90px;
+    border-radius: 20px;
+    background: #514988;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Verdana;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin: 90px 0px 0px -150px;
+}
+
+button:hover{
+   
+    cursor: pointer;
+    color: #F3C61F;
+
+}
+
+#convites {
+    margin: -125px 10px 0px 245px;
+}
+
